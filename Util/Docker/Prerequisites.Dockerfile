@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM x11vnc-desktop
 
 USER root
 
@@ -41,7 +41,6 @@ RUN apt-get update ; \
   update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-8/bin/clang++ 180 && \
   update-alternatives --install /usr/bin/clang clang /usr/lib/llvm-8/bin/clang 180
 
-RUN useradd -m carla
 COPY --chown=carla:carla . /home/carla
 USER carla
 WORKDIR /home/carla
