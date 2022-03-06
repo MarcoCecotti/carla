@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "{00043151-08D9-E1B9-4419-7E92682160D9}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -107,6 +107,14 @@
 		},
 		{
 			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "RoadRunnerImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "RoadRunnerCarlaIntegration",
 			"Enabled": true
 		}
 	]
